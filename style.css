@@ -1,0 +1,103 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+   background-color:dad7cd;
+   color: 001C30;
+   padding: 50px;
+   text-align: center;
+
+ }
+
+ h1,h3,h4{
+  font-family: 'Montserrat', sans-serif;
+   color: A76F6F
+ }
+
+ li{
+   display: inline;
+ }
+
+ ul{
+   padding: 0;
+ }
+
+/* BUTTON  */
+ .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #718355;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c8553d;}
+
+/* PROFILE PICTURE */
+ #profile-pic {
+   width: 300px;
+   height: 300px;
+   border-radius: 150px;
+
+
+ }
+
+ .list-inline > ul >li{
+  display: inline-block;
+  padding: 0px, 10px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+ .card {
+   width: 600px;
+   background-color: #c2c5aa;
+   padding: 60px;
+   margin: 25px auto;
+   border-radius: 5px;
+   border: 1px solid #EAEAEA;
+   /* padding-left: 200px;
+   padding-right: 200px; */
+   box-shadow: 2px 2px 2px #ccc5b9;
+   text-align: center;
+
+
+ }
+
+@media (max-width: 900px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 250px;
+  }
+}
+
+
+/* @media (min-width: 420px) {
+  .card {
+    width: 350px;
+}
+}
+
+@media (min-width: 420px) {
+  .card {
+    width: 350px;
+}
+} */
